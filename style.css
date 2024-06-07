@@ -1,1 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Pacifico; 
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 15px;
+  height: 150px;
+  text-align: center;
+  color: #dc79b0;
+  font-family: Pacifico; 
+ 
+  
+}
+
+.Labs{
+  color: #dc79b0;
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  
+}
+
+.labs-showcase {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.lab {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.lab img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #624141;
+  border-radius: 10px;
+}
+
+.lab p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Projects {
+  color: #dc79b0;
+  text-align: center;
+  padding: 20px;
+  width: 2500px;
+  /* Adjust width as needed */
+}
+
+.project {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 2500px;
+}
+
+.project img {
+  height: 150px;
+  border: 2px solid #624141;
+  border-radius: 10px;
+
+}
+
+.project p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  width: 2500px;
+}
+
+.apps {
+  text-align: center;
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+  position: absolute;
+  bottom: -1700px; /* Position at the bottom */
+}
+
+.app {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.app img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #624141;
+  border-radius: 10px;
+}
+
+.app p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+}
 
